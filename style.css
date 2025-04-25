@@ -132,7 +132,7 @@ button:hover {
 
 
 .componentSpacing {
-    padding: 3rem 0rem;
+    padding: 2rem 0rem;
     /* Breathing Space Between Components */
 }
 
@@ -179,9 +179,33 @@ main {
 
 /* @media (width <=576px) */
 @media (max-width: 360px) {
+    body{
+        /* background-color: #000000; */
+    }
     .grid-1 {
         grid-template-columns: 1fr;
         padding: 0rem 1rem;
-
     }
+    .gradeBox{
+        padding: 0rem;
+        margin: 0rem;
+        width: 100%;
+    }
+    form{
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .fromGrp{
+        /* background-color: #210F37; */
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    form .fromGrp label{
+        /* background-color: #4F1C51; */
+        width: 100%;
+    }
+    
 }

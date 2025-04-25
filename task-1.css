@@ -13,8 +13,9 @@ form {
     /* background-color: #bfdbfe; */
     margin: 3rem;
 }
-label{
-    width: 40%;
+form .fromGrp label{
+    /* background-color: aqua; */
+    width: 100%;
 }
 #grade {
     /* background-color: #dbeafe; */
