@@ -1,0 +1,27 @@
+.gradeBox{
+    width: 100%;
+    height: auto;
+}
+
+form {
+    background-color: var(--secondaryColor);
+    border-radius: 1rem;
+    margin: 3rem 1rem;
+    padding: 1rem;
+}
+.fromGrp {
+    /* background-color: #bfdbfe; */
+    margin: 3rem;
+}
+label{
+    width: 40%;
+}
+#grade {
+    /* background-color: #dbeafe; */
+    font-family: var(--ffsecondary);
+    color: var(--darkColor);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+}
